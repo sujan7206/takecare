@@ -1,4 +1,6 @@
-<?php include 'header1.php'; ?>
+<?php
+include 'header.php';
+?>
 <!DOCTYPE html>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
@@ -200,7 +202,7 @@
                 <span data-translate="service-reports">Report</span>
             </a>
 
-            <a href="#" class="service-btn">
+            <a href="education.php" class="service-btn">
                 <i class="fas fa-heartbeat service-icon"></i>
                 <span data-translate="service-health-tips">Health Tips</span>
             </a>
@@ -226,13 +228,14 @@
                 <i class="fas fa-brain service-icon"></i>
                 <span data-translate="service-mental-health">Mental Health</span>
             </a>
-            <a href="chatbot.php" class="service-btn">
+            <a href="#" class="service-btn">
                 <i class="fas fa-comments service-icon"></i>
                 <span data-translate="service-chat">Chat</span>
             </a>
         </div>
     </div>
-<?php include 'footer.php'; ?>
+<?php include 'footer.php';
+?>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const languageSelect = document.getElementById("language-select");

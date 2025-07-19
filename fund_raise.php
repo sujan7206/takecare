@@ -252,7 +252,7 @@
             <p><strong>Contact:</strong> +977-9841234567</p>
             <p class="amount-required">Amount Required: Rs. 500,000</p>
           </div>
-          <img src="https://via.placeholder.com/100?text=QR+Code" alt="QR Code for Donation" class="qr-code">
+          <img src="assets/qr.jpeg" alt="QR Code for Donation" class="qr-code">
         </div>
       </div>
 

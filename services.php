@@ -1,6 +1,5 @@
-<?php
-include 'header1.php';
-?>
+<?php include 'header1.php'; ?>
+<!DOCTYPE html>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
     :root {
@@ -219,9 +218,9 @@ include 'header1.php';
                 <span data-translate="service-about-us">About Us</span>
             </a>
 
-            <a href="#" class="service-btn">
+            <a href="blog.php" class="service-btn">
                 <i class="fas fa-file-medical service-icon"></i>
-                <span data-translate="service-medical-records">Medical Records</span>
+                <span data-translate="service-medical-blog">Blogs</span>
             </a>
             <a href="mental_health.php" class="service-btn">
                 <i class="fas fa-brain service-icon"></i>
@@ -233,7 +232,7 @@ include 'header1.php';
             </a>
         </div>
     </div>
-
+<?php include 'footer.php'; ?>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const languageSelect = document.getElementById("language-select");
@@ -253,7 +252,7 @@ include 'header1.php';
                         'service-contact-us': 'Contact Us',
                         'service-about-us': 'About Us',
                         'service-lab-tests': 'Lab Tests',
-                        'service-medical-records': 'Medical Records',
+                        'service-medical-blog': 'Blogs',
                         'service-mental-health': 'Mental Health',
                         'sercice-chat': 'Chat'
                         
@@ -271,7 +270,7 @@ include 'header1.php';
                         'service-health-education': 'स्वास्थ्य शिक्षा',
                         'service-contact-us': 'हामीलाई सम्पर्क गर्नुहोस्',
                         'service-about-us': 'हाम्रो बारेमा',
-                        'service-medical-records': 'मेडिकल रेकर्डहरू',
+                      'service-medical-blog': 'पढ्नुहोस्',
                         'service-mental-health': 'मानसिक स्वास्थ्य',
                         'service-chat': 'च्याट बट'
                 
